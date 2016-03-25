@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 	<head>
+		<meta charset="utf-8"></meta>
 		<title>JSMusic</title>
 		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 		<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
 	</head>
 	<body>
-
+		<div ng-view>
+		
+		</div>
+		<script type="text/javascript" src="js/init.js"></script>
+		<script type="text/javascript" src="js/config/routes.js"></script>
+		<script type="text/javascript" src="js/controller/homeController.js"></script>
 	</body>
 </html>
