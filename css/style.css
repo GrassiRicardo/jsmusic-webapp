@@ -18,17 +18,26 @@
 .btn-circle {
 	border-radius: 50%;
 	background-color: #3B5166;
-	padding: 8px;
 }
 
 .btn-circle.big{
 	width: 60px;
 	height: 60px;
+	padding: 15px 19px;
+}
+
+.btn-circle.big i:before{
+	font-size: 24px;
 }
 
 .btn-circle.small{
 	width: 40px;
 	height: 40px;
+	padding: 10px 12px;
+}
+
+.btn-circle.small i:before{
+	font-size: 16px;
 }
 
 .inline {
@@ -37,4 +46,8 @@
 
 .controls {
 	padding: 20px;
+}
+
+.btn-white {
+	color: #EBEFF2;
 }
