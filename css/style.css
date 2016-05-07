@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+.top {
+	background-color: #232F3B;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 120px;
+}
+
+.content {
+	margin-top: 120px;
+}
+
+.btn-circle {
+	border-radius: 50%;
+	background-color: #3B5166;
+	padding: 8px;
+}
+
+.btn-circle.big{
+	width: 60px;
+	height: 60px;
+}
+
+.btn-circle.small{
+	width: 40px;
+	height: 40px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.controls {
+	padding: 20px;
+}

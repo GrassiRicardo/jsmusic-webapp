@@ -5,9 +5,21 @@
 		<title>JSMusic</title>
 		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 		<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<div ng-view>
+		<div class="top">
+			<div class="controls">
+				<div class="btn-circle small inline">teste</div>
+				<div class="btn-circle big inline">teste</div>
+				<div class="btn-circle small inline">teste</div>
+			</div>
+			<div class="music-progress">
+				
+			</div>
+		</div>
+		<div class="content" ng-view>
 		
 		</div>
 		<script type="text/javascript" src="js/init.js"></script>
